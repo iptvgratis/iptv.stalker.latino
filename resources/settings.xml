@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<settings>	
+
+  <category label="UPDATE">
+    <setting id="Update" label="Update Commonresolver from Genesis" type="bool" default="true" visible="false"/>
+	<setting type="action" label="Actualizar [B]Iptv STALKER Latino[/B]" option="close" action="RunPlugin(plugin://plugin.video.tvultimate/?mode=7)" />
+  
+  </category>
+ 
+</settings>

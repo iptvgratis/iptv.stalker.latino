@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+<window type="dialog">
+	<include>dialogeffect</include>
+	<defaultcontrol always="false">4001</defaultcontrol>
+	<visible>Window.IsActive(videoosd)</visible>
+	<allowoverlay>yes</allowoverlay>
+	<coordinates>
+		<system>1</system>
+		<posx>960</posx>
+		<posy>20</posy>
+	</coordinates>
+    <controls>	
+		<control type="image">
+            <posx>0</posx>
+            <posy>70</posy>
+            <width>270</width>
+            <height>410</height>
+            <texture>lateral-fundo.png</texture>
+			<visible>[System.Platform.Windows | System.Platform.Linux | System.Platform.Osx]</visible>
+        </control>
+		<!-- titulo -->
+		<control type="label">
+			<description>ESPN Latino HD</description>
+			<posx>0</posx>
+			<posy>90</posy>
+			<width>200</width>
+			<height>20</height>
+			<label>[B]ESPN Latino HD[/B]</label>
+			<font>font22</font>
+			<align>center</align>
+			<textcolor>FFDEB887</textcolor>
+			<shadowcolor>AA000000</shadowcolor>
+		</control>
+		<!-- botón stop -->
+		<control type="button" id="203">
+			<posx>213</posx>
+			<posy>79</posy>
+			<width>45</width>
+			<height>45</height>
+			<label>STOP</label>
+			<font>-</font>
+			<ondown>6000</ondown>
+			<texturefocus>lateral-fechar-seleccionado.png</texturefocus>
+			<texturenofocus>lateral-fechar.png</texturenofocus>
+			<!--<onclick>PlayerControl(Stop)</onclick>-->
+		</control>
+
+		<!-- separador superior -->
+		<control type="image">
+			<description>separator</description>
+			<posx>0</posx>
+			<posy>129</posy>
+			<width>270</width>
+			<height>1</height>
+			<texture>lateral-separador.png</texture>
+			<colordiffuse>DDFFFFFF</colordiffuse>
+		</control>
+		<!-- titulo -->
+		<control type="label">
+			<description>prueba</description>
+			<posx>5</posx>
+			<posy>150</posy>
+			<width>500</width>
+			<height>20</height>
+			<label>[B]07:20[/B] Planet Speed (Grabado)</label>
+			<font>font10</font>
+			<align>left</align>
+			<textcolor>FFDEB887</textcolor>
+			<shadowcolor>AA000000</shadowcolor>
+		</control>
+		<control type="label">
+			<description>prueba</description>
+			<posx>5</posx>
+			<posy>170</posy>
+			<width>500</width>
+			<height>20</height>
+			<label>[B]08:45[/B] La Liga Show 2014-15</label>
+			<font>font10</font>
+			<align>left</align>
+			<textcolor>FFDEB887</textcolor>
+			<shadowcolor>AA000000</shadowcolor>
+		</control>		
+		<control type="label">
+			<description>prueba</description>
+			<posx>5</posx>
+			<posy>190</posy>
+			<width>500</width>
+			<height>20</height>
+			<label>[B]10:00[/B] IAAF World 2014</label>
+			<font>font10</font>
+			<align>left</align>
+			<textcolor>FFDEB887</textcolor>
+			<shadowcolor>AA000000</shadowcolor>
+		</control>
+		<control type="label">
+			<description>prueba</description>
+			<posx>5</posx>
+			<posy>210</posy>
+			<width>500</width>
+			<height>20</height>
+			<label>[B]11:30[/B] Sportscenter Vivo</label>
+			<font>font10</font>
+			<align>left</align>
+			<textcolor>FFDEB887</textcolor>
+			<shadowcolor>AA000000</shadowcolor>
+		</control>
+		<control type="label">
+			<description>prueba</description>
+			<posx>5</posx>
+			<posy>230</posy>
+			<width>500</width>
+			<height>20</height>
+			<label>[B]12:00[/B] F-1 por dentro</label>
+			<font>font10</font>
+			<align>left</align>
+			<textcolor>FFDEB887</textcolor>
+			<shadowcolor>AA000000</shadowcolor>
+		</control>		
+		<control type="label">
+			<description>prueba</description>
+			<posx>5</posx>
+			<posy>250</posy>
+			<width>500</width>
+			<height>20</height>
+			<label>[B]14:00[/B] Fuera de juego (diferido)</label>
+			<font>font10</font>
+			<align>left</align>
+			<textcolor>FFDEB887</textcolor>
+			<shadowcolor>AA000000</shadowcolor>
+		</control>
+		<control type="label">
+			<description>prueba</description>
+			<posx>5</posx>
+			<posy>270</posy>
+			<width>500</width>
+			<height>20</height>
+			<label>[B]16:00[/B] UEFA Champions League</label>
+			<font>font10</font>
+			<align>left</align>
+			<textcolor>FFDEB887</textcolor>
+			<shadowcolor>AA000000</shadowcolor>
+		</control>
+		
+		<control type="label">
+			<description>prueba</description>
+			<posx>5</posx>
+			<posy>290</posy>
+			<width>500</width>
+			<height>20</height>
+			<label>[B]18:00[/B] Man City vs Bayern</label>
+			<font>font10</font>
+			<align>left</align>
+			<textcolor>FFDEB887</textcolor>
+			<shadowcolor>AA000000</shadowcolor>
+		</control>
+
+		<control type="label">
+			<description>prueba</description>
+			<posx>5</posx>
+			<posy>310</posy>
+			<width>500</width>
+			<height>20</height>
+			<label>[B]19:30[/B] Champions League Magazine</label>
+			<font>font10</font>
+			<align>left</align>
+			<textcolor>FFDEB887</textcolor>
+			<shadowcolor>AA000000</shadowcolor>
+		</control>
+		
+		<control type="label">
+			<description>prueba</description>
+			<posx>5</posx>
+			<posy>330</posy>
+			<width>500</width>
+			<height>20</height>
+			<label>[B]21:15[/B] NFL: Broncos vs 49ers</label>
+			<font>font10</font>
+			<align>left</align>
+			<textcolor>FFDEB887</textcolor>
+			<shadowcolor>AA000000</shadowcolor>
+		</control>
+		
+		<control type="label">
+			<description>prueba</description>
+			<posx>5</posx>
+			<posy>350</posy>
+			<width>500</width>
+			<height>20</height>
+			<label>[B]23:10[/B] NBA: Chicago vs Detroit</label>
+			<font>font10</font>
+			<align>left</align>
+			<textcolor>FFDEB887</textcolor>
+			<shadowcolor>AA000000</shadowcolor>
+		</control>
+		
+		<control type="label">
+			<description>prueba</description>
+			<posx>5</posx>
+			<posy>370</posy>
+			<width>500</width>
+			<height>20</height>
+			<label>[B]23:10[/B] ESPN News</label>
+			<font>font10</font>
+			<align>left</align>
+			<textcolor>FFDEB887</textcolor>
+			<shadowcolor>AA000000</shadowcolor>
+		</control>
+
+		<control type="label">
+			<description>prueba</description>
+			<posx>5</posx>
+			<posy>390</posy>
+			<width>500</width>
+			<height>20</height>
+			<label>[B]00:00[/B] NHL: LA Kings vs NY Rangers</label>
+			<font>font10</font>
+			<align>left</align>
+			<textcolor>FFDEB887</textcolor>
+			<shadowcolor>AA000000</shadowcolor>
+		</control>
+	</controls>	
+</window>

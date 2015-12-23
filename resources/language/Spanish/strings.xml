@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<strings>
+    <string id="30001">Última búsqueda</string>
+    <string id="30002">Última actualización: 0.1 (02.09.2013)</string>
+    <string id="30003">Videos</string>
+    <string id="30004">Buscador</string>
+    <string id="30005">Configuración</string>
+    <string id="30006">ID del canal de YouTube ...</string>
+    <string id="30007">Idioma para los resultados del buscador</string>
+    <string id="30106">Usuario</string>
+    <string id="30107">Items por pagina</string>
+    <string id="30010">Sports</string>
+    <string id="30101">Idioma</string>
+    <string id="30102">Forzar Modo Vista</string>
+    <string id="30103">Modo de vista</string>
+    <string id="30105">Calidad de video</string>
+    <string id="30011">News</string>    
+    <string id="30012">Documentaries</string>
+    <string id="30013">Entertainment</string>
+    
+</strings>
